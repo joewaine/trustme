@@ -1,41 +1,294 @@
 <!doctype html>
-<html class="no-js" lang="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+img{
+  width: 100%;
+}
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+*{
+    /* color: #000088 !important; */
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    color: green !important;
+    font-size: 16px;
+}
 
-  <meta name="theme-color" content="#fafafa">
-</head>
 
-<body>
+form{
+    padding: 10px;
+}
 
-  <!-- Add your site or application content here -->
-<img src="img/artist.png" alt="">
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+form select{
+    margin-bottom: 10px;
+}
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+p{
+  font-size: 16px;
+}
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+
+      <div class="row row-eq-height">
+
+        <div class="row" style="text-align: center;">
+
+            <img src="img/trustme.png" alt="trust me, im an artist" style="width:60%;margin: 0 auto;">
+            <br>
+            <br>
+        <p style="width: 80%;margin: 0 auto;">Hats, pins, patches, and stickers - featuring Easel Head.<br>The hats are nice and soft. The pins and patches look beautiful on other things. Get something on it's own, or get it all in a pack! Thanks - Joe</p>
+        <br>  <br>
+        </div>
+      </div>
+      <div class="row row-eq-height">
+        <div class="col-md-6">
+
+          <!-- green -->
+
+          <img src="img/coral.jpg" alt="coral">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+            
+              
+          
+          
+        </div>
+
+
+
+        <div class="col-md-6">
+
+
+          <!-- purple -->
+          <img src="img/purple.jpg" alt="purple">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
+          </div>
+
+
+
+          <div class="col-md-6">
+            <!-- red -->
+            <img src="img/green.jpg" alt="green">
+
+   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                
+                
+          </div>
+
+          <div class="col-md-6">
+
+
+
+            <!-- blue -->
+
+
+            <img src="img/blue.jpg" alt="blue">
+
+
+                
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                    
+
+          </div>
+
+
+          <div class="col-md-6">
+
+
+
+            <!-- blue -->
+
+
+            <img src="img/pin.jpg" alt="pin">
+
+
+                
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                    
+
+          </div>
+
+          <div class="col-md-6">
+
+
+
+            <!-- blue -->
+
+
+            <img src="img/sticker.jpg" alt="sticker">
+
+
+                
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                    
+
+          </div>
+
+          <div class="col-md-6">
+
+
+
+            <!-- blue -->
+
+
+            <img src="img/patch.jpg" alt="patch">
+
+
+                
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                    
+
+          </div>
+
+          <div class="col-md-6">
+
+
+
+            <!-- blue -->
+
+
+            <img src="img/white.jpg" alt="white">
+
+
+                
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="opacity:.4;pointer-events:none;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td>SOLD OUT!</td></tr>
+		      <tr><td><select></select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+                    
+
+          </div>
+
+
+      </div>
+
+      <hr>
+
+      <footer>
+        <!-- <p>&copy; Company 2015</p> -->
+            <a href="mailto:joe.waine@gmail.com">email: joe.waine@gmail.com</a>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
 </html>
